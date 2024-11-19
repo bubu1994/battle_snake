@@ -36,7 +36,7 @@ Why It’s Important
 	Limiting the loop rate ensures that your application doesn't consume excessive CPU,
 	especially when doing intensive rendering or animations.
 Here it's done depending on the wanted speed of players. For MS_PER_PIXEL=5,
-it renders a frame every 5 milliseconds, 12000 fps (maybe). (i don't care for the moment)
+it renders a frame every 5 milliseconds, 200 fps. (i don't care for the moment)
 
 
 Player field:
@@ -70,4 +70,8 @@ Ces moteurs offrent une abstraction des spécificités des OS, permettant aux d�
 le moteur s'occuper des détails comme le rendu graphique ou la gestion des entrées.
 ...
 En résumé, le code principal est souvent commun, mais des outils et bibliothèques aident à gérer les spécificités des systèmes d’exploitation.
+
+
+Après avoir fini le jeu, j'ai appris qu'il y avait une librairie mlx multi-plateforme! J'aurai dû me poser la question avant de commencer...
+
 */
