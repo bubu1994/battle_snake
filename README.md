@@ -1,4 +1,4 @@
-minimalist game of snake 1v1
+minimalist game of snake 1v1 with some flaws
 
 For linux and (maybe) macOS
 
