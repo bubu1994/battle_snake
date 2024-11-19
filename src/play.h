@@ -15,7 +15,7 @@
 # define COLOR_1 0xAAFFFF
 # define COLOR_2 0xFF2424
 # define START_POS 200
-# define MS_PER_PIXEL 6 //lower for higher speed
+# define MS_PER_PIXEL 5 //lower for higher speed
 # define MAX_TIME_JUMP 2000 // in milliseconds
 
 # ifdef __APPLE__
