@@ -71,7 +71,9 @@ le moteur s'occuper des détails comme le rendu graphique ou la gestion des entr
 ...
 En résumé, le code principal est souvent commun, mais des outils et bibliothèques aident à gérer les spécificités des systèmes d’exploitation.
 
-
 Après avoir fini le jeu, j'ai appris qu'il y avait une librairie mlx multi-plateforme! J'aurai dû me poser la question avant de commencer...
 
+
+
+Overall, the game has to be remade
 */

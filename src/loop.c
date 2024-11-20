@@ -71,6 +71,8 @@ int render_loop(t_mlx *data)
 	if (data->countdown >= 0 && current_time - data->last_time >= 1000)
 	{
 		mlx_clear_window(data->ptr, data->window);
+		data->first_p->duration_jump = MAX_TIME_JUMP;
+		data->second_p->duration_jump = MAX_TIME_JUMP;
 		put_square(&data->image, data->first_p->x, data->first_p->y, COLOR_1);
 		put_square(&data->image, data->second_p->x, data->second_p->y, COLOR_2);
 		mlx_put_image_to_window(data->ptr, data->window, data->image.img_ptr, 0, 0);
